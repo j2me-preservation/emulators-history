@@ -1,0 +1,88 @@
+$KVM
+2003-02-25 KVM CLDC 1.1
+# http://web.archive.org/web/20080701211940/http://www.torlus.com/index.php?2004/01/05/25-java4gba---a-java-virtual-machine-for-gba
+2004-01-05 Java4gba
+# http://web.archive.org/web/20080703230027/http://blog.davr.org/2007/08/08/java-for-nds/
+2007-08-08 java4nds_r2
+# http://web.archive.org/web/20091231121021/http://www.volny.cz/molej/pstrosnds/index.htm
+2008-07-06 Pstros NDS 0.7.2
+
+
+$phoneME
+2006-10-12 phoneME SVN r0
+2007-05-09 phoneme_feature-mr2-rel-b23
+2008-01-23 phoneME SVN r9037
+2008-11-20 phoneME SVN r15348
+2011-06-15 phoneME SVN r20547
+
+
+$pspkvm
+#HOME https://github.com/vadosnaprimer/pspkvm
+2008-02-12 PSPKVM initial commit
+2011-01-10 PSPKVM 0.5.5
+2011-09-03 PSPKVM last commit
+
+DERIVE PSPKVM initial commit~phoneME SVN r9037
+
+
+$phoneME_SDL
+#2008-07-01 phoneME GP2X v0.2     TODO -- uncertain upstream
+2008-07-17 phoneME SDL v1.0.0
+2008-07-19 phoneME SDL v1.0.1
+2012-03-30 phoneME SDL v1.0.1 (Caanoo)
+
+DERIVE phoneME SDL v1.0.0~phoneme_feature-mr2-rel-b23
+
+
+$phoneME_android
+#HOME https://github.com/nikita36078/phoneME-android
+2017-10-10 phoneME-android
+# 2017-10-16 phoneME-android last
+
+DERIVE phoneME-android~phoneME SVN r20547
+
+
+$midpath
+#HOME http://midpath.thenesis.org/
+2006-12-16 midpath initial revision
+2008-10-20 midpath 0.3RC2
+2009-10-08 midpath final
+
+
+$midpath4dingoo
+#HOME https://code.google.com/archive/p/midpath4dingoo
+2009-12-29 midpath4dingoo initial
+2010-05-21 midpath4dingoo v0.3
+2010-05-25 midpath4dingoo final
+
+DERIVE midpath4dingoo initial~midpath 0.3RC2
+
+
+$bittboy_j2me
+#HOME xxx
+2020-05-11 bittboy-j2me
+
+DERIVE bittboy-j2me~phoneME SVN r15348
+DERIVE bittboy-j2me~midpath4dingoo v0.3
+
+
+$microemu
+2001-08-01 microemu initial revision
+2013-05-24 microemu 3.0.0-SNAPSHOT.112 (final)
+
+
+$J2ME_Loader
+2017-05-21 J2ME-Loader initial commit
+today J2ME-Loader
+
+DERIVE J2ME-Loader initial commit~microemu 3.0.0-SNAPSHOT.112 (final)
+
+
+$SquirrelJME
+2017-06-19 SquirrelJME initial
+today SquirrelJME
+
+
+$freej2me
+2017-09-24 FreeJ2ME
+today FreeJ2ME
