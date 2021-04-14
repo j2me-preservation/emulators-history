@@ -1,38 +1,52 @@
 $KVM
-2003-02-25 KVM CLDC 1.1
+2003-02-25 KVM CLDC 1.1\nSun Microsystems
 # http://web.archive.org/web/20080701211940/http://www.torlus.com/index.php?2004/01/05/25-java4gba---a-java-virtual-machine-for-gba
-2004-01-05 Java4gba
+
+
+$Java4gba
+2004-01-05 Java4gba\nTorlus
 # http://web.archive.org/web/20080703230027/http://blog.davr.org/2007/08/08/java-for-nds/
-2007-08-08 java4nds_r2
+2007-08-08 java4nds_r2\ndavr
 # http://web.archive.org/web/20091231121021/http://www.volny.cz/molej/pstrosnds/index.htm
-2008-07-06 Pstros NDS 0.7.2
+2008-07-06 Pstros NDS 0.7.2\nOle
+
+DERIVE Java4gba\nTorlus~KVM CLDC 1.1\nSun Microsystems
+
+
+$MIDP
+2002-11-07 MIDP 2.0 reference impl.\nSun Microsystems
 
 
 $phoneME
-2006-10-12 phoneME SVN r0
+2006-10-12 phoneME SVN r0\nSun Microsystems
 2007-05-09 phoneme_feature-mr2-rel-b23
 2008-01-23 phoneME SVN r9037
 2008-11-20 phoneME SVN r15348
 2011-06-15 phoneME SVN r20547
 
+DERIVE phoneME SVN r0\nSun Microsystems~KVM CLDC 1.1\nSun Microsystems
+DERIVE phoneME SVN r0\nSun Microsystems~MIDP 2.0 reference impl.\nSun Microsystems
+
 
 $pspkvm
-#HOME https://github.com/vadosnaprimer/pspkvm
-2008-02-12 PSPKVM initial commit
-2011-01-10 PSPKVM 0.5.5
-2011-09-03 PSPKVM last commit
+# https://github.com/vadosnaprimer/pspme
+2008-02-08 pspME v0.2.1\nM@x
+# https://github.com/vadosnaprimer/pspkvm
+2008-03-31 pspkvm v0.3.0\nSleeper, M@x
+2011-01-10 pspkvm 0.5.5
+2011-09-03 pspkvm last commit
 
-DERIVE PSPKVM initial commit~phoneME SVN r9037
+DERIVE pspME v0.2.1\nM@x~phoneME SVN r9037
 
 
 $phoneME_SDL
 #2008-07-01 phoneME GP2X v0.2     TODO -- uncertain upstream
-2008-07-17 phoneME SDL v1.0.0
+2008-07-17 phoneME SDL v1.0.0\nzaxxon
 # https://dl.openhandhelds.org/cgi-bin/wiz.cgi?0,0,0,0,73,400
 2008-07-19 phoneME SDL v1.0.1
 2012-03-30 phoneME SDL v1.0.1 (Caanoo)
 
-DERIVE phoneME SDL v1.0.0~phoneme_feature-mr2-rel-b23
+DERIVE phoneME SDL v1.0.0\nzaxxon~phoneme_feature-mr2-rel-b23
 
 
 $phoneME_android
@@ -80,7 +94,7 @@ DERIVE J2ME-Loader initial commit~microemu 3.0.0-SNAPSHOT.112 (final)
 
 
 $SquirrelJME
-2017-06-19 SquirrelJME initial
+2017-06-19 SquirrelJME initial\nXerTheSquirrel
 today SquirrelJME
 
 

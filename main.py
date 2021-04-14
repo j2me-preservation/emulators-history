@@ -6,7 +6,7 @@ derivations = []
 
 with open("history.txt", "rt") as f:
     for line in f:
-        line = line.strip()
+        line = line.strip().replace("\\n", "\n")
         if not line or line.startswith("#"):
             continue
 
@@ -90,13 +90,13 @@ with open("history.dot", "wt") as f:
 
         f.write("\n".join(defs))
         for a, b in joins:
-            f.write(f"{a} -> {b};\n")
+            f.write(f"{a} -> {b}[weight=4];\n")
         f.write("\n")
 
     for from_, to in derivations:
         a = name_map[from_]
         b = name_map[to]
-        f.write(f"{a} -> {b}[style=dashed, constraint=false];\n")
+        f.write(f"{a} -> {b}[style=dashed, weight=1];\n")
 
     f.write(' }\n')
     for dc, date in enumerate(sorted(all_dates)):
