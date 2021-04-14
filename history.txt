@@ -28,6 +28,7 @@ DERIVE PSPKVM initial commit~phoneME SVN r9037
 $phoneME_SDL
 #2008-07-01 phoneME GP2X v0.2     TODO -- uncertain upstream
 2008-07-17 phoneME SDL v1.0.0
+# https://dl.openhandhelds.org/cgi-bin/wiz.cgi?0,0,0,0,73,400
 2008-07-19 phoneME SDL v1.0.1
 2012-03-30 phoneME SDL v1.0.1 (Caanoo)
 
