@@ -94,7 +94,9 @@ DERIVE J2ME-Loader initial commit~microemu 3.0.0-SNAPSHOT.112 (final)
 
 
 $SquirrelJME
-2017-06-19 SquirrelJME initial\nXerTheSquirrel
+#HOME https://squirreljme.cc/
+2016-06-19 SquirrelJME initial commit\nXerTheSquirrel
+2018-12-25 SquirrelJME 0.2.0
 today SquirrelJME
 
 
